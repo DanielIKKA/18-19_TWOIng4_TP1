@@ -1,0 +1,27 @@
+#first_section {
+    padding: 5% 0;
+    justify-content: center ;
+    align-content: center;
+}
+
+#text_wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#text_wrapper p {
+    margin: 0;
+}
+
+#icon_wrapper {
+    text-align: center;
+}
+
+#text_work_exp {
+    position: absolute;
+    top: 25%;
+
+
+    color: var(--white);
+
+}
