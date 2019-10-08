@@ -28,7 +28,7 @@
             </div>
 
             <div id="icon_wrapper">
-                <svg width="22px" height="65px" viewBox="0 0 18 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg height="5.5em" viewBox="0 0 18 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="A3-Copy" transform="translate(-411.000000, -310.000000)">
                             <g id="Section" transform="translate(227.000000, 8.000000)">
@@ -56,11 +56,39 @@
         <section id="second_section" class="column vRatio1 relative">
             <img src="../Assets/Images/img1.png" alt="BG_pic" class="vRatio1 cover">
 
-            <div id="text_work_exp">
-                <p id="title_work_exp">
-                    Work <span>Experiences</span>
+            <div id="text_work_exp" class="absolute">
+                <p id="title_work_exp" class="tSize6 no_margin">
+                    <span class="bold">Work</span><br><span class="extra-light">Experiences</span>
                 </p>
             </div>
+
+            <div id="icon_line" class="row w1 absolute">
+
+                <svg width="40%" height="3">
+                    <line x1="0" y1="0" x2="100%" y2="0" style="stroke:var(--white);stroke-width:2"></line>
+                </svg>
+
+                <p class="no_margin white">Last Experience</p>
+
+                <svg width="40%" height="3">
+                    <line x1="0" y1="0" x2="100%" y2="0" style="stroke:var(--white);stroke-width:2"></line>
+                </svg>
+            </div>
+
+            <article id="last_experience" class="w1 absolute">
+                <div id="wrapper_article" class="row w6 vRatio1">
+                    <img src="../Assets/Images/im2.png" alt="pic" height="80%" class="contain">
+                    <div id="text_kuantom">
+                        <h1 class="semi-bold tSize2 white no_margin_top">Intern <span class="thin">as</span> Back-end developer</h1>
+                        <p class="thin white">
+                            CTO’s assistant<br>
+                            - Web developpement HTML CSS JS<br>
+                            - Back and Front-end Framworks <span class="bold">…</span>
+                        </p>
+                    </div>
+                </div>
+            </article>
+
         </section>
     </main>
 

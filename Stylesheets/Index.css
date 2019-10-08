@@ -1,5 +1,5 @@
 #first_section {
-    padding: 5% 0;
+    padding: 5%;
     justify-content: center ;
     align-content: center;
 }
@@ -18,10 +18,41 @@
 }
 
 #text_work_exp {
-    position: absolute;
-    top: 25%;
 
+    top: 20%;
+    left: 15%;
 
     color: var(--white);
+    letter-spacing: 0.9em;
+}
 
+#icon_line {
+
+    top: 70%;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: small;
+    letter-spacing: 1px;
+}
+
+#icon_line p {
+    margin: 0 10px;
+}
+
+#last_experience {
+    top: 73%;
+    height: 25%;
+}
+
+#text_kuantom {
+    margin-left: 3.5em;
+    flex-wrap: nowrap;
+}
+
+#wrapper_article {
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
 }

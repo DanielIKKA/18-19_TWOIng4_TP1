@@ -39,6 +39,16 @@ body, html {
 .vRatio8 { height: 25%; }
 .vRatio9 { height: 20%; }
 
+.w1 { width: 100%; }
+.w2 { width: 90%; }
+.w3 { width: 85%; }
+.w4 { width: 75%; }
+.w5 { width: 66.66%; }
+.w6 { width: 50%; }
+.w7 { width: 33.33%; }
+.w8 { width: 25%; }
+.w9 { width: 20%; }
+
 .thin { font-weight: 100; }
 .extra-light { font-weight: 200; }
 .light { font-weight: 300; }
@@ -56,9 +66,20 @@ body, html {
 .tSize5 { font-size: 2.6rem; }
 .tSize6 { font-size: 4.2rem; }
 
+.white { color: var(--white); }
+.dark_blue { color: var(--blue_dark); }
+.light_blue { color: var(--blue_light); }
+
 .contain { object-fit: contain; }
 .cover { object-fit: cover; }
 
 .relative { position: relative; }
+.absolute { position: absolute; }
+
+.no_margin { margin: 0; }
+.no_margin_top { margin-top: 0; }
+.no_margin_down { margin-bottom: 0; }
+.no_margin_left { margin-left: 0; }
+.no_margin_right { margin-right: 0; }
 
 .rounded_image { border-radius: 50%; }
