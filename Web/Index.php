@@ -16,10 +16,10 @@
     <!-- Include the page's header -->
     <!--<?php //include("Header.php"); ?>-->
 
-    <main class="vRatio1">
-        <section id="first_section" class="column vRatio5">
+    <main class="h1">
+        <section id="first_section" class="column h5">
 
-            <img src="../Assets/Images/_MG_2989.png" class="vRatio6 rounded_image contain" alt="profile-pic">
+            <img src="../Assets/Images/_MG_2989.png" class="h6 rounded_image contain" alt="profile-pic">
 
             <div id="text_wrapper">
                 <h1 class="semi-bold tSize4">Daniel IKKA</h1>
@@ -52,16 +52,14 @@
             </div>
 
         </section>
-
-        <section id="second_section" class="column vRatio1 relative">
-            <img src="../Assets/Images/img1.png" alt="BG_pic" class="vRatio1 cover">
-
+        <section id="second_section" class="column vh2 relative">
+            <a href="#" class="h1 w1 absolute"></a>
+            <img src="../Assets/Images/img1.png" alt="BG_pic" class="h1 cover">
             <div id="text_work_exp" class="absolute">
                 <p id="title_work_exp" class="tSize6 no_margin">
                     <span class="bold">Work</span><br><span class="extra-light">Experiences</span>
                 </p>
             </div>
-
             <div id="icon_line" class="row w1 absolute">
 
                 <svg width="40%" height="3">
@@ -74,9 +72,8 @@
                     <line x1="0" y1="0" x2="100%" y2="0" style="stroke:var(--white);stroke-width:2"></line>
                 </svg>
             </div>
-
             <article id="last_experience" class="w1 absolute">
-                <div id="wrapper_article" class="row w6 vRatio1">
+                <div id="wrapper_article" class="row w6 h1">
                     <img src="../Assets/Images/im2.png" alt="pic" height="80%" class="contain">
                     <div id="text_kuantom">
                         <h1 class="semi-bold tSize2 white no_margin_top">Intern <span class="thin">as</span> Back-end developer</h1>
@@ -88,7 +85,10 @@
                     </div>
                 </div>
             </article>
-
+        </section>
+        <section id="third_section" class="column vh2 relative">
+            <a href="#" class="h1 w1 absolute"></a>
+            <img src="../Assets/Images/img3.png" alt="BG_pic" class="h1 cover">
         </section>
     </main>
 
