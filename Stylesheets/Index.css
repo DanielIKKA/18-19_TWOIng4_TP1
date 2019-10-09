@@ -3,6 +3,10 @@ section {
     box-shadow: 0 11px 15px rgba(0,0,0,0.5);
 }
 
+section a {
+    cursor: initial;
+}
+
 #first_section {
     padding: 5%;
     justify-content: center ;
@@ -29,6 +33,15 @@ section {
 
     color: var(--white);
     letter-spacing: 0.9em;
+}
+
+#text_project {
+    top: 25%;
+    right: 10%;
+
+    color: var(--white);
+    text-align: end;
+    letter-spacing: 0.6em;
 }
 
 #icon_line {
@@ -60,4 +73,14 @@ section {
     align-items: center;
     justify-content: center;
     margin-left: 25%;
+
+    border: rgba(0,0,0,0) 1px solid;
+    cursor: pointer;
+
+    transition: border 0.5s, background-color 0.5s;
+}
+
+#wrapper_article:hover {
+    background-color: rgba(0,0,0,0.3);
+    border: var(--white) 1px solid;
 }

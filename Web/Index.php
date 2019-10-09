@@ -52,6 +52,7 @@
             </div>
 
         </section>
+
         <section id="second_section" class="column vh2 relative">
             <a href="#" class="h1 w1 absolute"></a>
             <img src="../Assets/Images/img1.png" alt="BG_pic" class="h1 cover">
@@ -62,13 +63,13 @@
             </div>
             <div id="icon_line" class="row w1 absolute">
 
-                <svg width="40%" height="3">
+                <svg width="40%" height="2">
                     <line x1="0" y1="0" x2="100%" y2="0" style="stroke:var(--white);stroke-width:2"></line>
                 </svg>
 
                 <p class="no_margin white">Last Experience</p>
 
-                <svg width="40%" height="3">
+                <svg width="40%" height="2">
                     <line x1="0" y1="0" x2="100%" y2="0" style="stroke:var(--white);stroke-width:2"></line>
                 </svg>
             </div>
@@ -86,9 +87,15 @@
                 </div>
             </article>
         </section>
+
         <section id="third_section" class="column vh2 relative">
             <a href="#" class="h1 w1 absolute"></a>
             <img src="../Assets/Images/img3.png" alt="BG_pic" class="h1 cover">
+            <div id="text_project" class="absolute">
+                <p id="title_work_exp" class="tSize6 no_margin bold">
+                    Projects
+                </p>
+            </div>
         </section>
     </main>
 
