@@ -74,16 +74,16 @@
                 </svg>
             </div>
             <article id="last_experience" class="w1 absolute">
-                <div id="wrapper_article" class="row w6 h1">
+                <div id="wrapper_article" class="row w6 h1 selection_type_1">
                     <img src="../Assets/Images/im2.png" alt="pic" height="80%" class="contain">
-                    <div id="text_kuantom">
+                    <aside id="text_kuantom">
                         <h1 class="semi-bold tSize2 white no_margin_top">Intern <span class="thin">as</span> Back-end developer</h1>
-                        <p class="thin white">
+                        <p class="thin white no_margin_down">
                             CTO’s assistant<br>
                             - Web developpement HTML CSS JS<br>
                             - Back and Front-end Framworks <span class="bold">…</span>
                         </p>
-                    </div>
+                    </aside>
                 </div>
             </article>
         </section>
@@ -96,6 +96,48 @@
                     Projects
                 </p>
             </div>
+        </section>
+
+        <section id="forth_section" class="column vh2 relative">
+            <a href="#" class="h1 w1 absolute"></a>
+            <img src="../Assets/Images/img4.png" alt="BG_pic" class="h1 cover">
+            <div id="text_education" class="absolute">
+                <p id="title_education" class="tSize6 no_margin bold">
+                    Education
+                </p>
+            </div>
+
+            <div id="articles_wrapper_education" class="row w3 h8 absolute">
+                <article id="ece_feature" class="w6 h3">
+                    <div id="wrapper" class="row w1 h1 selection_type_1">
+                        <img src="../Assets/Images/EceLogo.png" alt="pic" height="80%" class="contain">
+                        <aside id="text_ece">
+                            <h1 class="semi-bold tSize2 white no_margin_top">
+                                Computer<span class="thin"> and </span>Electronic
+                                <br>Engineering
+                            </h1>
+                            <p class="thin white no_margin_down">
+                                Bachelor courses<span class="italic extra-light pre_tab">2016 to 2018</span><br>
+                                Master courses<span class="italic extra-light pre_tab">2018 -</span></p>
+                        </aside>
+                    </div>
+                </article>
+
+                <article id="malmo_feature" class="w6 h3">
+                    <div id="wrapper" class="row h1 selection_type_1">
+                        <img src="../Assets/Images/MalmoLogo.png" alt="pic" height="80%" class="contain">
+                        <aside id="text_malmo">
+                            <h1 class="semi-bold tSize2 white no_margin_top">
+                                Erasmus Exchange
+                                <br><span class="thin tSize1">Sweden</span></h1>
+                            <p class="thin white no_margin_down">
+                                Bachelor courses
+                            </p>
+                        </aside>
+                    </div>
+                </article>
+            </div>
+
         </section>
     </main>
 
