@@ -14,7 +14,7 @@
 <body>
 
     <!-- Include the page's header -->
-    <!--<?php //include("Header.php"); ?>-->
+    <?php include("Header.php"); ?>
 
     <main class="h1">
         <section id="first_section" class="column h5">

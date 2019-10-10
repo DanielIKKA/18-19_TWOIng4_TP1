@@ -94,6 +94,12 @@ body, html {
 .no_margin_left { margin-left: 0; }
 .no_margin_right { margin-right: 0; }
 
+.no_padding { padding: 0; }
+.no_padding_top { padding-top: 0; }
+.no_padding_down { padding-bottom: 0; }
+.no_padding_left { padding-left: 0; }
+.no_padding_right {padding-right: 0; }
+
 .rounded_image { border-radius: 50%; }
 
 
