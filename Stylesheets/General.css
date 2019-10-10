@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+:root {
+    --blue_dark : #1A3244;
+    --blue_light : #2F4455;
+    --white : #EFF1F3;
+    --gray : #DBD3D8;
+    --pink : #D89D95;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    min-width: 950px;
+    min-height: 460px;
+    color: var(--blue_dark);
+}
+
+body, html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1 { height: 100%; }
+.h2 { height: 90%; }
+.h3 { height: 85%; }
+.h4 { height: 75%; }
+.h5 { height: 66.66%; }
+.h6 { height: 50%; }
+.h7 { height: 33.33%; }
+.h8 { height: 25%; }
+.h9 { height: 20%; }
+
+.vh1 { height: 110%; }
+.vh2 { height: 125%; }
+
+.w1 { width: 100%; }
+.w2 { width: 90%; }
+.w3 { width: 85%; }
+.w4 { width: 75%; }
+.w5 { width: 66.66%; }
+.w6 { width: 50%; }
+.w7 { width: 33.33%; }
+.w8 { width: 25%; }
+.w9 { width: 20%; }
+
+.thin { font-weight: 100; }
+.extra-light { font-weight: 200; }
+.light { font-weight: 300; }
+.regular { font-weight: 400; }
+.medium { font-weight: 500; }
+.semi-bold { font-weight: 600; }
+.bold { font-weight: 700; }
+.extra-bold { font-weight: 800; }
+.black { font-weight: 900; }
+
+.italic {font-style: italic; }
+.underlined { text-decoration: underline; }
+
+.tSize1 { font-size: 1rem; }
+.tSize2 { font-size: 1.2rem; }
+.tSize3 { font-size: 1.4rem; }
+.tSize4 { font-size: 1.8rem; }
+.tSize5 { font-size: 2.6rem; }
+.tSize6 { font-size: 4.2rem; }
+
+.white { color: var(--white); }
+.dark_blue { color: var(--blue_dark); }
+.light_blue { color: var(--blue_light); }
+
+.contain { object-fit: contain; }
+.cover { object-fit: cover; }
+
+.relative { position: relative; }
+.absolute { position: absolute; }
+
+.no_margin { margin: 0; }
+.no_margin_top { margin-top: 0; }
+.no_margin_down { margin-bottom: 0; }
+.no_margin_left { margin-left: 0; }
+.no_margin_right { margin-right: 0; }
+
+.rounded_image { border-radius: 50%; }
+
+
+.selection_type_1 {
+    border: rgba(0,0,0,0) 1px solid;
+    cursor: pointer;
+
+    transition: border 0.5s, background-color 0.5s;
+}
+
+.selection_type_1:hover {
+    background-color: rgba(0,0,0,0.4);
+    border: var(--white) 1px solid;
+}
+
+.pre_tab { margin-left: 10px; }
