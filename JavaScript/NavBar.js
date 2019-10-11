@@ -19,7 +19,9 @@ function navBarManage() {
         $navBar.css({
             'opacity' : 0,
         });
-    } else if (scrollTop <= beginPoint - 50) { // hide nav 100px before begin point to have a better fluency effect
+    }
+
+    if (scrollTop <= 100) { // hide nav 100px before begin point to have a better fluency effect
         $navBar.hide();
     }
 
@@ -38,16 +40,20 @@ $(document).ready(function () {
     let oldOpacity = 0;
 
     $navBar.hover(function (over) {
-        if(!$(this).hidden) {
+        if(window.pageYOffset > 100) {
             oldOpacity = $(this).css("opacity");
             $(this).css({
                 'opacity' : 1
             });
         }
     }, function () {
-        if(!$(this).hidden) {
+        if(window.pageYOffset > 100) {
             $(this).css({
                 'opacity': oldOpacity
+            });
+        } else {
+            $(this).css({
+                'opacity': 0
             });
         }
     });
