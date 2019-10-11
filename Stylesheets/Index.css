@@ -28,7 +28,7 @@ section a {
 
 #text_work_exp {
 
-    top: 20%;
+    top: 40%;
     left: 15%;
 
     color: var(--white);
@@ -36,7 +36,7 @@ section a {
 }
 
 #text_education {
-    top: 20%;
+    top: 40%;
     left: 15%;
 
     color: var(--white);
@@ -46,7 +46,7 @@ section a {
 }
 
 #text_project {
-    top: 25%;
+    top: 40%;
     left: 60%;
 
     color: var(--white);
