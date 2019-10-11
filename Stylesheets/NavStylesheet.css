@@ -1,9 +1,27 @@
 #nav-bar-header {
     position: fixed;
     z-index: 10;
+
+    background-color: var(--blue_light);
+    opacity: 0;
+
+    transition-duration: 0.4s;
 }
 
 .list {
-    margin: 10px 20px;
+    padding: 10px 20px;
     list-style: none;
+
+    transition: background-color ease-in-out 300ms, color ease-in-out 300ms;
+}
+
+.list:hover{
+    background-color: var(--blue_dark);
+    color: var(--gray);
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--white);
 }

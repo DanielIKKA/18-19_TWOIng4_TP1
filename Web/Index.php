@@ -9,6 +9,9 @@
     <link href="../Stylesheets/NavStylesheet.css" type="text/css" rel="stylesheet">
     <link href="../Stylesheets/Index.css" type="text/css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../JavaScript/NavBar.js" type="text/javascript" rel="script"></script>
+
 </head>
 
 <body>
