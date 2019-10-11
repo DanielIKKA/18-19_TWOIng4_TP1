@@ -9,6 +9,9 @@
     <link href="../Stylesheets/NavStylesheet.css" type="text/css" rel="stylesheet">
     <link href="../Stylesheets/Index.css" type="text/css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../JavaScript/NavBar.js" type="text/javascript" rel="script"></script>
+
 </head>
 
 <body>
@@ -80,8 +83,8 @@
                         <h1 class="semi-bold tSize2 white no_margin_top">Intern <span class="thin">as</span> Back-end developer</h1>
                         <p class="thin white no_margin_down">
                             CTO’s assistant<br>
-                            - Web developpement HTML CSS JS<br>
-                            - Back and Front-end Framworks <span class="bold">…</span>
+                            - Web development HTML CSS JS<br>
+                            - Back and Front-end Frameworks <span class="bold">…</span>
                         </p>
                     </aside>
                 </div>

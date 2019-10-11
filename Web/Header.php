@@ -1,10 +1,8 @@
 <header>
-    <nav id="nav-bar-header" class="w1">
-        <ul class="row no_margin no_padding">
-            <li class="list"><a href="#">Home</a></li>
-            <li class="list"><a href="#">Experiences</a></li>
-            <li class="list"><a href="#">Projects</a></li>
-            <li class="list"><a href="#">Education</a></li>
-        </ul>
+    <nav id="nav-bar-header" class="w1 row no_margin no_padding">
+        <a class="list w1 h1" href="#">Home</a>
+        <a class="list w1 h1" href="#">Experiences</a>
+        <a class="list w1 h1" href="#">Projects</a>
+        <a class="list w1 h1" href="#">Education</a>
     </nav>
 </header>
