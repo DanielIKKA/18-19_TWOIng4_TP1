@@ -11,7 +11,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../JavaScript/NavBar.js" type="text/javascript" rel="script"></script>
-
+    <script src="../JavaScript/Home.js" type="text/javascript" rel="script"></script>
 </head>
 
 <body>
@@ -95,7 +95,7 @@
             <a href="#" class="h1 w1 absolute"></a>
             <img src="../Assets/Images/img3.png" alt="BG_pic" class="h1 cover">
             <div id="text_project" class="absolute">
-                <p id="title_work_exp" class="tSize6 no_margin bold">
+                <p id="title_project" class="tSize6 no_margin bold">
                     Projects
                 </p>
             </div>
