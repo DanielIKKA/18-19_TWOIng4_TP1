@@ -1,14 +1,9 @@
 let $window = $(window);
 
-let $firstSection;
-let $navBar;
-
-function init() {
-    $firstSection = $("#first_section");
-    $navBar = $("#nav-bar-header");
-}
-
 function navBarManage() {
+
+    let $firstSection = $("#first_section");
+    let $navBar = $('#nav-bar-header');
 
     let beginPoint = $firstSection.outerHeight() / 3;
 
@@ -28,35 +23,35 @@ function navBarManage() {
     // manage opacity
     if (scrollTop >= beginPoint) {
         $navBar.show();
-        $navBar.css({ 'opacity' : 0.6 });
+        $navBar.css({ 'opacity' : 1 });
     }
 
 }
 
 $(document).ready(function () {
-    init();
-    $navBar.hide();
+
+    let $navBar = $('#nav-bar-header');
 
     let oldOpacity = 0;
 
-    $navBar.hover(function (over) {
-        if(window.pageYOffset > 100) {
-            oldOpacity = $(this).css("opacity");
-            $(this).css({
-                'opacity' : 1
-            });
-        }
-    }, function () {
-        if(window.pageYOffset > 100) {
-            $(this).css({
-                'opacity': oldOpacity
-            });
-        } else {
-            $(this).css({
-                'opacity': 0
-            });
-        }
-    });
+    // $navBar.hover(function () {
+    //     if(window.pageYOffset > 100) {
+    //         oldOpacity = $(this).css("opacity");
+    //         $(this).css({
+    //             'opacity' : 0.6
+    //         });
+    //     }
+    // }, function () {
+    //     if(window.pageYOffset > 100) {
+    //         $(this).css({
+    //             'opacity': oldOpacity
+    //         });
+    //     } else {
+    //         $(this).css({
+    //             'opacity': 0
+    //         });
+    //     }
+    // });
 });
 
 $window.on('scroll', function () {

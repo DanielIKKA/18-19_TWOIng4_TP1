@@ -5,19 +5,23 @@
     background-color: var(--blue_light);
     opacity: 0;
 
+    font-size: 0.9em;
     transition-duration: 0.3s;
 }
 
+#nav-bar-header .list a {
+    cursor: pointer;
+}
+
 .list {
-    padding: 25px;
+    padding: 10px;
     list-style: none;
 
     transition: background-color ease-in-out 300ms, color ease-in-out 300ms;
 }
 
 .list:hover{
-    background-color: var(--blue_dark);
-    color: var(--gray);
+    color: var(--pink);
 }
 
 a {

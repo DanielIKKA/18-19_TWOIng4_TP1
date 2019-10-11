@@ -8,10 +8,6 @@
     <link href="../Stylesheets/General.css" type="text/css" rel="stylesheet">
     <link href="../Stylesheets/NavStylesheet.css" type="text/css" rel="stylesheet">
     <link href="../Stylesheets/Index.css" type="text/css" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="../JavaScript/NavBar.js" type="text/javascript" rel="script"></script>
-    <script src="../JavaScript/Home.js" type="text/javascript" rel="script"></script>
 </head>
 
 <body>
@@ -58,7 +54,7 @@
 
         <section id="second_section" class="column vh2 relative">
             <a href="#" class="h1 w1 absolute"></a>
-            <img src="../Assets/Images/img1.png" alt="BG_pic" class="h1 cover">
+            <img id="img1" src="../Assets/Images/img1.png" alt="BG_pic" class="h1 cover">
             <div id="text_work_exp" class="absolute">
                 <p id="title_work_exp" class="tSize6 no_margin">
                     <span class="bold">Work</span><br><span class="extra-light">Experiences</span>
@@ -144,8 +140,9 @@
         </section>
     </main>
 
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../JavaScript/NavBar.js" type="text/javascript" rel="script"></script>
+    <script src="../JavaScript/Home.js" type="text/javascript" rel="script"></script>
 
 </body>
 

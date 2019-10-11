@@ -32,11 +32,11 @@ function translateY(startPoint, endPoint, $object, startVal, endVal) {
 
         $object.css({
             top : advancementPercent + '%',
-            opacity : rangePercent
+            opacity : rangePercent,
         });
     }
 }
-function translateX(startPoint, endPoint, $object, startVal, endVal) {
+function scale(startPoint, endPoint, $object, startVal, endVal) {
 
     let scrollPos = $win.scrollTop();
 
@@ -55,8 +55,7 @@ function translateX(startPoint, endPoint, $object, startVal, endVal) {
         }
 
         $object.css({
-            left : advancementPercent + '%',
-            opacity : rangePercent
+            scale : advancementPercent
         });
     }
 }
@@ -77,6 +76,7 @@ $win.scroll( function () {
     let startPointEducationTitle = endPointEducationTitle - $win.outerHeight()/2;
 
     translateY(startPointWorkTitle, endPointWorkTitle, $workTitle, 40, 20);
+    scale(startPointWorkTitle, endPointWorkTitle, $('#img1'), 1, 1.5);
     translateY(startPointProjectTitle, endPointProjectTitle, $projectTitle, 40, 20);
     translateY(startPointEducationTitle, endPointEducationTitle, $educationTitle, 40, 20);
 
