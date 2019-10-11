@@ -83,8 +83,8 @@
                         <h1 class="semi-bold tSize2 white no_margin_top">Intern <span class="thin">as</span> Back-end developer</h1>
                         <p class="thin white no_margin_down">
                             CTO’s assistant<br>
-                            - Web developpement HTML CSS JS<br>
-                            - Back and Front-end Framworks <span class="bold">…</span>
+                            - Web development HTML CSS JS<br>
+                            - Back and Front-end Frameworks <span class="bold">…</span>
                         </p>
                     </aside>
                 </div>
