@@ -8,7 +8,7 @@
 }
 
 .list {
-    padding: 10px;
+    padding: 15px 10px;
     list-style: none;
 
     transition: background-color ease-in-out 300ms, color ease-in-out 300ms;
@@ -16,6 +16,11 @@
 
 .list:hover{
     color: var(--pink);
+}
+
+
+ #A3_send {
+    transition: fill ease-in-out 300ms;
 }
 
 a {

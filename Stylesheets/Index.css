@@ -42,7 +42,7 @@ section a {
     color: var(--white);
     letter-spacing: 0.9em;
 
-    text-shadow: 1px 3px 7px rgba(0,0,0,0.5);
+    /*text-shadow: 1px 3px 7px rgba(0,0,0,0.5);*/
 }
 
 #text_project {

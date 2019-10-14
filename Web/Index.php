@@ -54,7 +54,7 @@
 
         <section id="second_section" class="column vh2 relative">
             <a href="#" class="h1 w1 absolute"></a>
-            <img id="img1" src="../Assets/Images/img1.png" alt="BG_pic" class="h1 cover">
+            <img id="img1" src="../Assets/Images/img1.png" alt="BG_pic" class="h1 w1 cover">
             <div id="text_work_exp" class="absolute">
                 <p id="title_work_exp" class="tSize6 no_margin">
                     <span class="bold">Work</span><br><span class="extra-light">Experiences</span>
@@ -89,7 +89,7 @@
 
         <section id="third_section" class="column vh2 relative">
             <a href="#" class="h1 w1 absolute"></a>
-            <img src="../Assets/Images/img3.png" alt="BG_pic" class="h1 cover">
+            <img src="../Assets/Images/img3.png" alt="BG_pic" class="h1 w1 cover">
             <div id="text_project" class="absolute">
                 <p id="title_project" class="tSize6 no_margin bold">
                     Projects
@@ -99,7 +99,7 @@
 
         <section id="forth_section" class="column vh2 relative">
             <a href="#" class="h1 w1 absolute"></a>
-            <img src="../Assets/Images/img4.png" alt="BG_pic" class="h1 cover">
+            <img src="../Assets/Images/img4.png" alt="BG_pic" class="h1 w1 cover">
             <div id="text_education" class="absolute">
                 <p id="title_education" class="tSize6 no_margin bold">
                     Education
