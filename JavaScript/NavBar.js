@@ -1,60 +1,80 @@
 let $window = $(window);
 
-function navBarManage() {
+function navBarManageOnScroll() {
 
-    let $firstSection = $("#first_section");
-    let $navBar = $('#nav-bar-header');
+    let $navBar = $('#header_wrapper');
 
-    let beginPoint = $firstSection.outerHeight() / 3;
+    let range = $navBar.outerHeight();
 
-    let scrollTop = $window.scrollTop();
-
-
-    if(scrollTop <= beginPoint) {
+    if(window.pageYOffset <= range*8) {
         $navBar.css({
-            'opacity' : 0,
+            'top' : $window.scrollTop()/8-range + 'px'
         });
+    } else if($navBar.position().top === 0) {
+        console.log('yes');
+        $navBar.css({
+            'transition-duration' : '0ms'
+        });
+    } else if (window.pageYOffset > range*8) {
+        $navBar.css({
+            'transition-duration' : '100ms',
+            'top' : -$navBar.scrollTop()
+        })
     }
+}
+function navBarManageOnReady() {
 
-    if (scrollTop <= 100) { // hide nav 100px before begin point to have a better fluency effect
-        $navBar.hide();
+    let $navBar = $('#header_wrapper');
+
+    let range = $navBar.outerHeight();
+
+    if(window.pageYOffset <= range*8) {
+        $navBar.css({
+            'transition-duration' : '100ms',
+            'top' : -$navBar.scrollTop()
+        });
+    } else if($navBar.position().top === 0) {
+        console.log('yes');
+        $navBar.css({
+            'transition-duration' : '0ms'
+        });
+    } else if (window.pageYOffset > range*8) {
+        $navBar.css({
+            'transition-duration' : '200ms',
+            'top' : 0
+        })
     }
-
-    // manage opacity
-    if (scrollTop >= beginPoint) {
-        $navBar.show();
-        $navBar.css({ 'opacity' : 1 });
-    }
-
 }
 
 $(document).ready(function () {
 
-    let $navBar = $('#nav-bar-header');
+    let $navBar = $('#header_wrapper');
 
-    let oldOpacity = 0;
+    $navBar.css({
+       'top' : -$navBar.outerHeight() + 'px'
+    });
 
-    // $navBar.hover(function () {
-    //     if(window.pageYOffset > 100) {
-    //         oldOpacity = $(this).css("opacity");
-    //         $(this).css({
-    //             'opacity' : 0.6
-    //         });
-    //     }
-    // }, function () {
-    //     if(window.pageYOffset > 100) {
-    //         $(this).css({
-    //             'opacity': oldOpacity
-    //         });
-    //     } else {
-    //         $(this).css({
-    //             'opacity': 0
-    //         });
-    //     }
-    // });
+    let $sendMe = $('#nav_contact');
+
+    navBarManageOnReady();
+
+    $sendMe.hover(function () {
+        let $path = $('#A3_send');
+
+        $path.css({
+            'fill' : 'var(--pink)'
+        })
+    }, function () {
+        let $path = $('#A3_send');
+
+        $path.css({
+            'fill' : 'var(--white)'
+        })
+    })
 });
 
 $window.on('scroll', function () {
-    navBarManage();
+    navBarManageOnScroll();
 });
+
 

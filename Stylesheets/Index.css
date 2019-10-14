@@ -28,7 +28,7 @@ section a {
 
 #text_work_exp {
 
-    top: 20%;
+    top: 40%;
     left: 15%;
 
     color: var(--white);
@@ -36,17 +36,17 @@ section a {
 }
 
 #text_education {
-    top: 20%;
+    top: 40%;
     left: 15%;
 
     color: var(--white);
     letter-spacing: 0.9em;
 
-    text-shadow: 1px 3px 7px rgba(0,0,0,0.5);
+    /*text-shadow: 1px 3px 7px rgba(0,0,0,0.5);*/
 }
 
 #text_project {
-    top: 25%;
+    top: 40%;
     left: 60%;
 
     color: var(--white);

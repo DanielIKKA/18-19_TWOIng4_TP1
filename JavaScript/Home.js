@@ -10,6 +10,12 @@ function init() {
     $workTitle = $('#text_work_exp');
     $projectTitle = $('#text_project');
     $educationTitle =$('#text_education');
+
+    $navBar = $('#nav1');
+
+    $navBar.css({
+        'color' : 'var(--pink)'
+    });
 }
 
 function translateY(startPoint, endPoint, $object, startVal, endVal) {
