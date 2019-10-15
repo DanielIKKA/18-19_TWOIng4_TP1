@@ -1,7 +1,7 @@
-<header id="header_wrapper" class="w1 row">
-    <nav id="nav-bar-header" class="w5 row no_margin no_padding">
-        <a id="nav_contact" class="list h1">
-            <svg width="2em" class="h1" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<header id="header_wrapper" class="w100 row">
+    <nav id="nav-bar-header" class="w66 row no_margin no_padding">
+        <a id="nav_contact" class="list h100">
+            <svg width="2em" class="h100" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page_1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="A3_send" transform="translate(-188.000000, -6.000000)" fill="var(--white)" fill-rule="nonzero">
                         <g id="email" transform="translate(188.000000, 6.000000)">
@@ -11,10 +11,10 @@
                     </g>
                 </g>
             </svg></a>
-        <a id="nav1" class="list h1" href="#">Home</a>
-        <a id="nav2" class="list h1" href="#">Experiences</a>
-        <a id="nav3" class="list h1" href="#">Projects</a>
-        <a id="nav4" class="list h1" href="#">Education</a>
-        <a id="nav5" class="list h1" href="#">Others</a>
+        <a id="nav1" class="list h100" href="#">Home</a>
+        <a id="nav2" class="list h100" href="#">Experiences</a>
+        <a id="nav3" class="list h100" href="#">Projects</a>
+        <a id="nav4" class="list h100" href="#">Education</a>
+        <a id="nav5" class="list h100" href="#">Others</a>
     </nav>
 </header>

@@ -88,3 +88,7 @@ section a {
 #articles_wrapper_education {
     bottom: 3%;
  }
+
+#arrow-1, #arrow-2, #arrow-3 {
+    opacity: 0;
+}

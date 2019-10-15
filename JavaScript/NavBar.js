@@ -6,16 +6,15 @@ function navBarManageOnScroll() {
 
     let range = $navBar.outerHeight();
 
-    if(window.pageYOffset <= range*8) {
+    if(window.pageYOffset <= range*4) {
         $navBar.css({
-            'top' : $window.scrollTop()/8-range + 'px'
+            'top' : $window.scrollTop()/4-range + 'px'
         });
     } else if($navBar.position().top === 0) {
-        console.log('yes');
         $navBar.css({
             'transition-duration' : '0ms'
         });
-    } else if (window.pageYOffset > range*8) {
+    } else if (window.pageYOffset > range*4) {
         $navBar.css({
             'transition-duration' : '100ms',
             'top' : -$navBar.scrollTop()
@@ -28,22 +27,24 @@ function navBarManageOnReady() {
 
     let range = $navBar.outerHeight();
 
-    if(window.pageYOffset <= range*8) {
+    if(window.pageYOffset <= range*4) {
         $navBar.css({
-            'transition-duration' : '100ms',
-            'top' : -$navBar.scrollTop()
+            'transition-duration' : '400ms',
+            'top' : $window.scrollTop()/4-range + 'px'
         });
-    } else if($navBar.position().top === 0) {
-        console.log('yes');
+    } else if (window.pageYOffset > range*4) {
         $navBar.css({
-            'transition-duration' : '0ms'
-        });
-    } else if (window.pageYOffset > range*8) {
-        $navBar.css({
-            'transition-duration' : '200ms',
+            'transition-duration' : '400ms',
             'top' : 0
         })
     }
+
+    window.setTimeout(function () {
+        $navBar.css({
+            'transition-duration' : '0ms'
+        });
+    }, 400);
+
 }
 
 $(document).ready(function () {
