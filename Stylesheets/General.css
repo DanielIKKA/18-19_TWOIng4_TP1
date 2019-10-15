@@ -104,10 +104,13 @@ body, html {
 .no_padding_right {padding-right: 0; }
 
 .rounded_image {
+    display: block;
+    margin: 1em auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
+
     overflow: hidden;
-    vertical-align: middle;
-    horiz-align: center;
 }
 
 

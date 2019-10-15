@@ -92,3 +92,14 @@ section a {
 #arrow-1, #arrow-2, #arrow-3 {
     opacity: 0;
 }
+
+#profile_contact {
+    background-color: var(--blue_dark);
+    opacity: 0;
+    transition-duration: 600ms;
+    cursor: pointer;
+}
+
+#profile_contact:hover {
+    opacity: 0.75;
+}
