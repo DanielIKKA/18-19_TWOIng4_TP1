@@ -9,6 +9,7 @@
 
     <link href="../Stylesheets/NavStylesheet.css" type="text/css" rel="stylesheet">
     <link href="../Stylesheets/FooterStylesheet.css" type="text/css" rel="stylesheet">
+    <link href="../Stylesheets/PopupStylesheet.css" type="text/css" rel="stylesheet">
 
     <link href="../Stylesheets/Index.css" type="text/css" rel="stylesheet">
 </head>
@@ -21,7 +22,7 @@
     <main>
         <section id="first_section" class="column vh66">
 
-            <div id="main_pic_mask" class="h50 rounded_image relative">
+            <div id="main_pic_mask" class="h50 rounded_image relative" onclick="openForm()">
                 <a id="profile_contact" class="h100 w100 contain absolute">
                     <svg width="40%" class="h100" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g id="Page_1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -32,14 +33,15 @@
                                 </g>
                             </g>
                         </g>
-                    </svg></a>
+                    </svg>
+                </a>
                 <img src="../Assets/Images/_MG_2989.png" class="h100 contain" alt="profile-pic">
             </div>
 
 
             <div id="text_wrapper">
                 <h1 class="semi-bold tSize4">Daniel IKKA</h1>
-                <p class="regular tSize2">Ecole Centrale d'Electronique - Ece PARIS</p>
+                <p class="regular tSize2">Ecole Centrale d'Electronique - ECE Paris-Lyon</p>
                 <p class="extra-light tSize2">Engineering School</p>
             </div>
 
@@ -157,12 +159,16 @@
         </section>
     </main>
 
+    <!-- Include the popup -->
+    <?php include("popupForm.php"); ?>
+
     <!-- Include the page's footer -->
     <?php include("Footer.php"); ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../JavaScript/NavBar.js" type="text/javascript" rel="script"></script>
     <script src="../JavaScript/Home.js" type="text/javascript" rel="script"></script>
+    <script src="../JavaScript/popup.js" type="text/javascript" rel="script"></script>
 
 </body>
 

@@ -42,29 +42,6 @@ function translateY(startPoint, endPoint, $object, startVal, endVal) {
         });
     }
 }
-function scale(startPoint, endPoint, $object, startVal, endVal) {
-
-    let scrollPos = $win.scrollTop();
-
-    let range = endPoint - startPoint;
-    let position = scrollPos - startPoint;
-
-    let advancementPercent;
-
-    if(scrollPos >= startPoint && scrollPos < endPoint) {
-        let rangePercent = (position / range);
-
-        if(startVal > endVal) {
-            advancementPercent = startVal - rangePercent * (startVal - endVal);
-        } else {
-            advancementPercent = startVal + rangePercent * (endVal - startVal);
-        }
-
-        $object.css({
-            scale : advancementPercent
-        });
-    }
-}
 function animateArrows() {
     let $arrow1 = $('#arrow-1');
     let $arrow2 = $('#arrow-2');
@@ -92,7 +69,7 @@ function animateArrows() {
         });
     });
 
-    window.setTimeout(animateArrows, 1500);
+    window.setTimeout(animateArrows, 1400);
 }
 function linesAnimation() {
     let scrollPos = $win.scrollTop();
@@ -146,7 +123,7 @@ function educationFeaturesAnimation() {
 
     // define between which values lines gonna evolute
     let startVal = 20;
-    let endVal = 5;
+    let endVal = 10;
 
     let range = endPoint - startPoint;
     let position = scrollPos - startPoint;
@@ -182,21 +159,26 @@ $(document).ready( function () {
 
     animateArrows();
 
+    // $('#main_pic_mask').click(function () {
+    //     $('#myForm').css({
+    //         display : 'block'
+    //     })
+    // });
+
 });
 
 // Events on scroll
 $win.scroll( function () {
-    let endPointWorkTitle = $('#second_section').position().top;
+    let endPointWorkTitle = $('#second_section').offset().top;
     let startPointWorkTitle =  endPointWorkTitle - $win.outerHeight()/2;
 
-    let endPointProjectTitle = $("#third_section").position().top;
+    let endPointProjectTitle = $("#third_section").offset().top;
     let startPointProjectTitle = endPointProjectTitle - $win.outerHeight()/2;
 
-    let endPointEducationTitle = $("#forth_section").position().top;
+    let endPointEducationTitle = $("#forth_section").offset().top;
     let startPointEducationTitle = endPointEducationTitle - $win.outerHeight()/2;
 
     translateY(startPointWorkTitle, endPointWorkTitle, $workTitle, 40, 20);
-    scale(startPointWorkTitle, endPointWorkTitle, $('#img1'), 1, 1.5);
     translateY(startPointProjectTitle, endPointProjectTitle, $projectTitle, 40, 20);
     translateY(startPointEducationTitle, endPointEducationTitle, $educationTitle, 40, 20);
 

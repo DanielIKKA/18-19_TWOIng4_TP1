@@ -1,6 +1,6 @@
 <header id="header_wrapper" class="w100 row">
     <nav id="nav-bar-header" class="w66 row no_margin no_padding">
-        <a id="nav_contact" class="list h100">
+        <a id="nav_contact" class="list h100" onclick="openForm()">
             <svg width="2em" class="h100" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page_1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="A3_send" transform="translate(-188.000000, -6.000000)" fill="var(--white)" fill-rule="nonzero">

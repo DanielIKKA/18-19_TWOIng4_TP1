@@ -34,8 +34,6 @@ body, html {
     align-items: center;
 }
 
-
-
 .h100 { height: 100%; }
 .h90 { height: 90%; }
 .h85 { height: 85%; }
@@ -49,6 +47,7 @@ body, html {
 .vh110 { height: 110vh; }
 .vh125 { height: 125vh; }
 .vh66 { height: 66.66vh; }
+.vh80 { height: 80vh; }
 .vh33 { height: 33.33vh; }
 
 .w100 { width: 100%; }
@@ -105,7 +104,6 @@ body, html {
 
 .rounded_image {
     display: block;
-    margin: 1em auto;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
