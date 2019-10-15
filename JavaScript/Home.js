@@ -101,7 +101,7 @@ function linesAnimation() {
     let $lines = $('#line_r, #line_l');
 
     // define the starting and ending point of animation
-    let startPoint = $('#second_section').offset().top - 100;
+    let startPoint = $('#second_section').offset().top - 90;
     let endPoint = startPoint + $('#second_section').outerHeight()/2;
 
     // define between which values lines gonna evolute
