@@ -101,7 +101,7 @@ function linesAnimation() {
 
         // lines' width gonna change from 0% to 40%
         $lines.css({
-            width : advancementPercent + '%'
+            width : advancementPercent + '%',
         });
 
         // text and article's opacity gonna change from 0% to 100%
@@ -151,6 +151,29 @@ function educationFeaturesAnimation() {
         });
     }
 }
+function videoManagement() {
+    let wrapper = $('#video_wrapper');
+    let $video = $('#laDistrib');
+
+    let start = $('#third_section').offset().top;
+    let end = start + wrapper.outerHeight();
+
+    let position = window.pageYOffset - start;
+
+    let range = end - start;
+
+    let advancementPercent = position / range;
+
+    if(window.pageYOffset >= start && window.pageYOffset <= end + 2*window.outerHeight/3) {
+        $video[0].play();
+        wrapper.css({
+           opacity : advancementPercent
+        });
+    } else {
+        $video[0].pause();
+        $video[0].currentTime = 0;
+    }
+}
 
 // event when DOM is ready
 $(document).ready( function () {
@@ -158,13 +181,6 @@ $(document).ready( function () {
     init();
 
     animateArrows();
-
-    // $('#main_pic_mask').click(function () {
-    //     $('#myForm').css({
-    //         display : 'block'
-    //     })
-    // });
-
 });
 
 // Events on scroll
@@ -185,4 +201,6 @@ $win.scroll( function () {
     linesAnimation();
 
     educationFeaturesAnimation();
+
+    videoManagement();
 });

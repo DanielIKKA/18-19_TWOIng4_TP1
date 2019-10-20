@@ -103,3 +103,31 @@ section a {
 #profile_contact:hover {
     opacity: 0.75;
 }
+
+#video_wrapper {
+    z-index: 5;
+    top : 60%;
+    box-shadow: black 5px 5px 15px;
+    opacity: 0;
+}
+
+#video_wrapper div {
+    top: 0;
+    opacity: 0;
+    transition-duration: 300ms;
+
+    background-color: black;
+    color: var(--white);
+
+    text-align: center;
+
+    justify-content: center;
+
+    border: var(--white) 1px solid;
+}
+
+#video_wrapper div:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
+

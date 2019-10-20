@@ -1,3 +1,5 @@
+/* ====== Header ====== */
+
 #header_wrapper {
     position: fixed;
     z-index: 10;
@@ -27,4 +29,10 @@ a {
     text-decoration: none;
     text-align: center;
     color: var(--white);
+}
+
+
+/* ====== Footer ====== */
+#footer_wrapper {
+    background-color: var(--blue_light);
 }

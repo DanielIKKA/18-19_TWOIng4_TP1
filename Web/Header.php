@@ -11,9 +11,9 @@
                     </g>
                 </g>
             </svg></a>
-        <a id="nav1" class="list h100" href="#">Home</a>
-        <a id="nav2" class="list h100" href="#">Experiences</a>
-        <a id="nav3" class="list h100" href="#">Projects</a>
+        <a id="nav1" class="list h100" href="Index.php">Home</a>
+        <a id="nav2" class="list h100" href="Experiences.php">Experiences</a>
+        <a id="nav3" class="list h100" href="Projects.php">Projects</a>
         <a id="nav4" class="list h100" href="#">Education</a>
         <a id="nav5" class="list h100" href="#">Others</a>
     </nav>

@@ -7,8 +7,7 @@
 
     <link href="../Stylesheets/General.css" type="text/css" rel="stylesheet">
 
-    <link href="../Stylesheets/NavStylesheet.css" type="text/css" rel="stylesheet">
-    <link href="../Stylesheets/FooterStylesheet.css" type="text/css" rel="stylesheet">
+    <link href="../Stylesheets/Nav&FooterStylesheet.css" type="text/css" rel="stylesheet">
     <link href="../Stylesheets/PopupStylesheet.css" type="text/css" rel="stylesheet">
 
     <link href="../Stylesheets/Index.css" type="text/css" rel="stylesheet">
@@ -37,7 +36,6 @@
                 </a>
                 <img src="../Assets/Images/_MG_2989.png" class="h100 contain" alt="profile-pic">
             </div>
-
 
             <div id="text_wrapper">
                 <h1 class="semi-bold tSize4">Daniel IKKA</h1>
@@ -72,13 +70,15 @@
         </section>
 
         <section id="second_section" class="column vh125 relative">
-            <a href="#" class="h100 w100 absolute"></a>
+            <a href="Experiences.php" class="h100 w100 absolute"></a>
             <img id="img1" src="../Assets/Images/img1.png" alt="BG_pic" class="h100 w100 cover">
+
             <div id="text_work_exp" class="absolute">
                 <p id="title_work_exp" class="tSize6 no_margin">
                     <span class="bold">Work</span><br><span class="extra-light">Experiences</span>
                 </p>
             </div>
+
             <div id="icon_line" class="row w100 absolute">
 
                 <svg id="line_l" width="40%" height="2">
@@ -91,8 +91,9 @@
                     <line x1="0" y1="0" x2="100%" y2="0" style="stroke:var(--white); stroke-width:2"></line>
                 </svg>
             </div>
+
             <article id="last_experience" class="w100 absolute">
-                <div id="wrapper_article" class="row w50 h100 selection_type_1">
+                <a id="wrapper_article" class="row w50 h100 selection_type_1" href="Experiences.php#kuantom_article">
                     <img src="../Assets/Images/im2.png" alt="pic" height="80%" class="contain">
                     <aside id="text_kuantom">
                         <h1 class="semi-bold tSize2 white no_margin_top">Intern <span class="thin">as</span> Back-end developer</h1>
@@ -102,18 +103,26 @@
                             - Back and Front-end Frameworks <span class="bold">…</span>
                         </p>
                     </aside>
-                </div>
+                </a>
             </article>
         </section>
 
         <section id="third_section" class="column vh125 relative">
-            <a href="#" class="h100 w100 absolute"></a>
+            <a href="Projects.php" class="h100 w100 absolute"></a>
             <img src="../Assets/Images/img3.png" alt="BG_pic" class="h100 w100 cover">
             <div id="text_project" class="absolute">
                 <p id="title_project" class="tSize6 no_margin bold">
                     Projects
                 </p>
             </div>
+
+            <div id="video_wrapper" class="absolute h33">
+                <video id="laDistrib" class="h100">
+                    <source src="../Assets/Videos/PSTE_laDistrib.mp4" type="video/mp4">
+                </video>
+                <div class="h100 w100 absolute tSize2 column"><p>View more</p></div>
+            </div>
+
         </section>
 
         <section id="forth_section" class="column vh125 relative">
@@ -167,8 +176,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../JavaScript/NavBar.js" type="text/javascript" rel="script"></script>
-    <script src="../JavaScript/Home.js" type="text/javascript" rel="script"></script>
     <script src="../JavaScript/popup.js" type="text/javascript" rel="script"></script>
 
+    <script src="../JavaScript/Home.js" type="text/javascript" rel="script"></script>
 </body>
+
 </html>

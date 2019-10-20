@@ -44,6 +44,16 @@ body, html {
 .h25 { height: 25%; }
 .h20 { height: 20%; }
 
+.max-h100 { max-height: 100%; }
+.max-h90 { max-height: 90%; }
+.max-h85 { max-height: 85%; }
+.max-h75 { max-height: 75%; }
+.max-h66 { max-height: 66.66%; }
+.max-h50 { max-height: 50%; }
+.max-h33 { max-height: 33.33%; }
+.max-h25 { max-height: 25%; }
+.max-h20 { max-height: 20%; }
+
 .vh110 { height: 110vh; }
 .vh125 { height: 125vh; }
 .vh66 { height: 66.66vh; }
@@ -59,6 +69,18 @@ body, html {
 .w33 { width: 33.33%; }
 .w25 { width: 25%; }
 .w20 { width: 20%; }
+.w15 {width: 15%; }
+
+.max-w100 { max-width: 100%; }
+.max-w90 { max-width: 90%; }
+.max-w85 { max-width: 85%; }
+.max-w75 { max-width: 75%; }
+.max-w66 { max-width: 66.66%; }
+.max-w50 { max-width: 50%; }
+.max-w33 { max-width: 33.33%; }
+.max-w25 { max-width: 25%; }
+.max-w20 { max-width: 20%; }
+.max-w15 {max-width: 15%; }
 
 .thin { font-weight: 100; }
 .extra-light { font-weight: 200; }
@@ -123,5 +145,7 @@ body, html {
     background-color: rgba(0,0,0,0.4);
     border: var(--white) 1px solid;
 }
+
+
 
 .pre_tab { margin-left: 10px; }
