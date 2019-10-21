@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Daniel IKKA</title>
+    <link rel="icon" type="image/png" href="../Assets/Images/icon-cv.png" />
 
     <link href="../Stylesheets/General.css" type="text/css" rel="stylesheet">
 
@@ -116,12 +117,12 @@
                 </p>
             </div>
 
-            <div id="video_wrapper" class="absolute h33">
+            <a href="Projects.php#title" id="video_wrapper" class="absolute h33">
                 <video id="laDistrib" class="h100">
                     <source src="../Assets/Videos/PSTE_laDistrib.mp4" type="video/mp4">
                 </video>
                 <div class="h100 w100 absolute tSize2 column"><p>View more</p></div>
-            </div>
+            </a>
 
         </section>
 

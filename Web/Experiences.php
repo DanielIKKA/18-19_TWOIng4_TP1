@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Work Experiences</title>
+    <link rel="icon" type="image/png" href="../Assets/Images/icon-cv.png" />
 
     <link href="../Stylesheets/General.css" type="text/css" rel="stylesheet">
     <link href="../Stylesheets/Nav&FooterStylesheet.css" type="text/css" rel="stylesheet">
