@@ -32,10 +32,10 @@
                 <aside class="column w25">
                     <img class="max-h50 max-w100 contain" src="../Assets/Images/logo_ece.png" alt="icon">
                     <footer class="row h25 w100">
-                        <a href="https://www.kuantom.com">
+                        <a href="https://www.ece.fr/ecole-ingenieur/">
                             <img class="contain w100 h100" src="../Assets/Images/webIcon.png" alt="webIcon">
                         </a>
-                        <a href="https://www.linkedin.com/company/kuantom">
+                        <a href="https://www.linkedin.com/school/ece-paris-lyon/">
                             <img class="contain h100 w100" src="../Assets/Images/linkedIn.png" alt="linkedInIcon">
                         </a>
                     </footer>
@@ -63,8 +63,8 @@
                 <aside class="column w25">
                     <img class="max-h50 max-w100 contain" src="../Assets/Images/malmo_uni.png" alt="icon">
                     <footer class="row h25 w100">
-                        <a href="https://sidlee.com/fr"><img class="contain w100" src="../Assets/Images/webIcon.png" alt="webIcon"></a>
-                        <a href=""><img class="contain w100" src="../Assets/Images/linkedIn.png" alt="linkedInIcon"></a>
+                        <a href="https://mau.se/"><img class="contain w100" src="../Assets/Images/webIcon.png" alt="webIcon"></a>
+                        <a href="https://www.linkedin.com/school/malmo-universitet/"><img class="contain w100" src="../Assets/Images/linkedIn.png" alt="linkedInIcon"></a>
                     </footer>
                 </aside>
                 <div class="w75 content_wrapper">
@@ -87,10 +87,10 @@
                 <aside class="column w25">
                     <img class="max-h50 max-w100 contain" src="../Assets/Images/logo_ece.png" alt="icon">
                     <footer class="row h25 w100">
-                        <a href="https://www.kuantom.com">
+                        <a href="https://www.ece.fr/ecole-ingenieur/">
                             <img class="contain w100 h100" src="../Assets/Images/webIcon.png" alt="webIcon">
                         </a>
-                        <a href="https://www.linkedin.com/company/kuantom">
+                        <a href="https://www.linkedin.com/school/ece-paris-lyon/">
                             <img class="contain h100 w100" src="../Assets/Images/linkedIn.png" alt="linkedInIcon">
                         </a>
                     </footer>
@@ -120,6 +120,6 @@
     <script src="../JavaScript/NavBar.js" type="text/javascript" rel="script"></script>
     <script src="../JavaScript/popup.js" type="text/javascript" rel="script"></script>
 
-    <script src="../JavaScript/Experience.js" type="text/javascript" rel="script"></script>
+    <script src="../JavaScript/Edu.js" type="text/javascript" rel="script"></script>
     </body>
 </html>

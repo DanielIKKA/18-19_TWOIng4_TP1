@@ -58,8 +58,8 @@
                     <img class="max-h50 max-w100 contain" src="../Assets/Images/sidlee.png" alt="icon">
                     <footer class="row h25 w100">
                         <a href="https://sidlee.com/fr"><img class="contain w100" src="../Assets/Images/webIcon.png" alt="webIcon"></a>
-                        <a href=""><img class="contain w100" src="../Assets/Images/linkedIn.png" alt="linkedInIcon"></a>
-                        <a href=""><img class="contain w100" src="../Assets/Images/youtubeIcon.png" alt="youtubeIcon"></a>
+                        <a href="https://www.linkedin.com/company/sid-lee/"><img class="contain w100" src="../Assets/Images/linkedIn.png" alt="linkedInIcon"></a>
+                        <a href="https://www.youtube.com/user/Sidleetv"><img class="contain w100" src="../Assets/Images/youtubeIcon.png" alt="youtubeIcon"></a>
                     </footer>
                 </aside>
                 <div class="w75 content_wrapper">

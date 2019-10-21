@@ -31,6 +31,7 @@
 <script src="../JavaScript/NavBar.js" type="text/javascript" rel="script"></script>
 <script src="../JavaScript/popup.js" type="text/javascript" rel="script"></script>
 
+<script src="../JavaScript/Projects.js" type="text/javascript" rel="script"></script>
 </body>
 </html>
 

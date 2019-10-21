@@ -78,4 +78,31 @@ $window.on('scroll', function () {
     navBarManageOnScroll();
 });
 
+$(document).on( "mousemove", function( event ) {
+    $( "#log" ).text( "pageX: " + event.pageX + ", pageY: " + event.pageY );
+    let $navBar = $('#header_wrapper');
+
+    let range = $navBar.outerHeight();
+
+    if(window.pageYOffset < range*4) {
+        if(-window.pageYOffset + event.pageY < 40) {
+            $navBar.css({
+                'transition-duration' : '400ms',
+                'top' : 0
+            })
+        } else {
+            $navBar.css({
+                'transition-duration' : '400ms',
+                'top' : -$navBar.outerHeight()
+            })
+        }
+    }
+
+
+    window.setTimeout(function () {
+        $navBar.css({
+            'transition-duration' : '0ms'
+        });
+    }, 400);
+});
 
