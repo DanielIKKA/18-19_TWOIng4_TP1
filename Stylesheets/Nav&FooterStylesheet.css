@@ -1,0 +1,56 @@
+/* ====== Header ====== */
+
+#header_wrapper {
+    position: fixed;
+    z-index: 10;
+    background-color: var(--blue_light);
+    font-size: 0.9em;
+
+    cursor: pointer;
+}
+
+.list {
+    padding: 15px 10px;
+    list-style: none;
+
+    transition: background-color ease-in-out 300ms, color ease-in-out 300ms;
+}
+
+.list:hover{
+    color: var(--pink);
+}
+
+
+ #A3_send {
+    transition: fill ease-in-out 300ms;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--white);
+}
+
+
+/* ====== Footer ====== */
+#footer_wrapper {
+    padding: 5% 0;
+    background-color: var(--blue_light);
+    justify-content: space-evenly;
+    box-shadow: 0 -2px 20px black ;
+}
+
+#footer_wrapper div a, #footer_wrapper div {
+    justify-content: right;
+    align-items: start;
+    text-align: right;
+}
+
+#footer_wrapper div p, #footer_wrapper div h1{
+    text-align: start;
+    color: var(--white);
+}
+
+footer h1 {
+    color: var(--white);
+}

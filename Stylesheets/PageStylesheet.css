@@ -1,0 +1,88 @@
+section {
+    padding: 15% 5% 5%;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 5em;
+}
+
+section h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+section h3 {
+    font-size: 1.2em;
+}
+
+section p {
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+article {
+    margin: 10px 0;
+    min-height: 70vh;
+    padding: 5% 2%;
+    background-color: var(--white);
+}
+
+aside {
+    margin: 0 5%;
+    height: 220px;
+    justify-content: space-evenly;
+}
+
+aside footer a {
+    width: 2rem;
+    height: 2rem;
+}
+
+.left *{
+    text-align: left;
+}
+
+.right, .right .content_wrapper{
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+.dates {
+    position: fixed;
+    offset-anchor: center;
+    top: 50%;
+    font-size: 1.1em;
+    font-weight: 500;
+
+    opacity: 0;
+}
+
+.d_left {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.d_right {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 0px;
+}
+
+#lines {
+    margin-bottom: 4em;
+}
+
+article footer {
+    margin-top: 50px;
+}
+
+footer video {
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+}
