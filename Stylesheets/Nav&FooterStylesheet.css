@@ -34,5 +34,23 @@ a {
 
 /* ====== Footer ====== */
 #footer_wrapper {
+    padding: 5% 0;
     background-color: var(--blue_light);
+    justify-content: space-evenly;
+    box-shadow: 0 -2px 20px black ;
+}
+
+#footer_wrapper div a, #footer_wrapper div {
+    justify-content: right;
+    align-items: start;
+    text-align: right;
+}
+
+#footer_wrapper div p, #footer_wrapper div h1{
+    text-align: start;
+    color: var(--white);
+}
+
+footer h1 {
+    color: var(--white);
 }

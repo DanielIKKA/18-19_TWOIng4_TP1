@@ -165,7 +165,10 @@ function videoManagement() {
     let advancementPercent = position / range;
 
     if(window.pageYOffset >= start && window.pageYOffset <= end + 2*window.outerHeight/3) {
-        $video[0].play();
+        const playPromise = $video[0].play();
+        if (playPromise !== null){
+            playPromise.catch(() => { $video[0].play(); })
+        }
         wrapper.css({
            opacity : advancementPercent
         });

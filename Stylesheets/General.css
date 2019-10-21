@@ -28,6 +28,14 @@ body, html {
     align-items: center;
 }
 
+.row_justify_center {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
 .column {
     display: flex;
     flex-direction: column;

@@ -126,7 +126,7 @@
         </section>
 
         <section id="forth_section" class="column vh125 relative">
-            <a href="#" class="h100 w100 absolute"></a>
+            <a href="Education.php" class="h100 w100 absolute"></a>
             <img src="../Assets/Images/img4.png" alt="BG_pic" class="h100 w100 cover">
             <div id="text_education" class="absolute">
                 <p id="title_education" class="tSize6 no_margin bold">
@@ -136,7 +136,7 @@
 
             <div id="articles_wrapper_education" class="row w85 h25 absolute">
                 <article id="ece_feature" class="w50 h85">
-                    <div id="wrapper" class="row w100 h100 selection_type_1">
+                    <a href="Education.php#Ece-Master" id="wrapper" class="row w100 h100 selection_type_1">
                         <img src="../Assets/Images/EceLogo.png" alt="pic" height="80%" class="contain">
                         <aside id="text_ece">
                             <h1 class="semi-bold tSize2 white no_margin_top">
@@ -147,11 +147,11 @@
                                 Bachelor courses<span class="italic extra-light pre_tab">2016 to 2018</span><br>
                                 Master courses<span class="italic extra-light pre_tab">2018 -</span></p>
                         </aside>
-                    </div>
+                    </a>
                 </article>
 
                 <article id="malmo_feature" class="w50 h85">
-                    <div id="wrapper" class="row h100 selection_type_1">
+                    <a href="Education.php#Erasmus" id="wrapper" class="row h100 selection_type_1">
                         <img src="../Assets/Images/MalmoLogo.png" alt="pic" height="80%" class="contain">
                         <aside id="text_malmo">
                             <h1 class="semi-bold tSize2 white no_margin_top">
@@ -161,7 +161,7 @@
                                 Bachelor courses
                             </p>
                         </aside>
-                    </div>
+                    </a>
                 </article>
             </div>
 

@@ -56,15 +56,25 @@ aside footer a {
     font-weight: 500;
 
     opacity: 0;
-
-    transition-duration: 400ms;
 }
 
 .d_left {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
 
 .d_right {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
     transform: rotate(90deg);
     right: 0px;
+}
+
+#lines {
+    margin-bottom: 4em;
 }

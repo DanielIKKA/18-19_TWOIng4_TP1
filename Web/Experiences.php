@@ -9,7 +9,7 @@
     <link href="../Stylesheets/Nav&FooterStylesheet.css" type="text/css" rel="stylesheet">
     <link href="../Stylesheets/PopupStylesheet.css" type="text/css" rel="stylesheet">
 
-    <link href="../Stylesheets/ExperiencesStylesheet.css" type="text/css" rel="stylesheet">
+    <link href="../Stylesheets/PageStylesheet.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +19,15 @@
 
     <main>
         <section id="intern_section">
-            <h1 class="extra-bold">Intern Experiences</h1>
+            <h1 class="extra-bold no_margin_down">Intern Experiences</h1>
+            <div id='lines' class="row_justify_center">
+                <svg id="line_l" width="40%" height="2">
+                    <line x1="0" y1="0" x2="100%" y2="0" style="stroke:var(--blue_dark); stroke-width:3px"></line>
+                </svg>
+                <svg id="line_r" width="40%" height="2">
+                    <line x1="0" y1="0" x2="100%" y2="0" style="stroke:var(--blue_dark); stroke-width:3px"></line>
+                </svg>
+            </div>
             <article id="kuantom_article" class="row left">
                 <aside class="column w25">
                     <img class="max-h50 max-w100 contain" src="../Assets/Images/kuantom.png" alt="icon">
@@ -68,7 +76,16 @@
         </section>
 
         <section id="student_job_section">
-            <h1>Student Jobs</h1>
+            <h1 class="no_margin_down extra-bold">Student Jobs</h1>
+            <div id='lines' class="row_justify_center">
+                <svg id="line_l" width="40%" height="2">
+                    <line x1="0" y1="0" x2="100%" y2="0" style="stroke:var(--blue_dark); stroke-width:3px"></line>
+                </svg>
+                <svg id="line_r" width="40%" height="2">
+                    <line x1="0" y1="0" x2="100%" y2="0" style="stroke:var(--blue_dark); stroke-width:3px"></line>
+                </svg>
+            </div>
+
             <article id="teacher_article" class="row left">
                 <aside class="column w25">
                     <img class="max-h85 max-w100 contain" src="../Assets/Images/tutorat.png" alt="icon">
