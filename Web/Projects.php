@@ -30,23 +30,37 @@
                 <line x1="0" y1="0" x2="100%" y2="0" style="stroke:var(--blue_dark); stroke-width:3px"></line>
             </svg>
         </div>
-        <article id="la_Distrib'_article" class="row left">
-            <aside class="column w25">
-                <img class="max-h85 max-w100 contain" src="../Assets/Images/LogoLaDistrib'(arrondi).png" alt="icon">
-            </aside>
-            <div class="w75 content_wrapper">
-                <h2 class="no_margin_down">La Distrib'</h2>
-                <h3 class="medium italic no_margin_top no_margin_down">ECE-Paris.Lyon (<span class="thin">Ecole Centrale d'Electronique</span>), Paris</h3>
-                <h4 class="no_margin_top">Oct. 2017 to Jun. 2018</h4>
-                <p>
-                    <span class="medium">200 man-days / 4 students</span><br>
-                    The project is a connected distributor of emergency supplies.
-                    <br><br>
-                    - Implementation of a physical prototype<br>
-                    - Design of a functional prototype for a mobile application (iOS development)
-                </p>
+        <article id="la_Distrib'_article" class="column">
+            <div class="row left">
+                <aside class="column w25">
+                    <img class="max-h85 max-w100 contain" src="../Assets/Images/LogoLaDistrib'(arrondi).png" alt="icon">
+                </aside>
+                <div class="w75 content_wrapper">
+                    <h2 class="no_margin_down">La Distrib'</h2>
+                    <h3 class="medium italic no_margin_top no_margin_down">ECE-Paris.Lyon (<span class="thin">Ecole Centrale d'Electronique</span>), Paris</h3>
+                    <h4 class="no_margin_top">Oct. 2017 to Jun. 2018</h4>
+                    <p>
+                        <span class="medium">200 man-days / 4 students</span><br>
+                        The project is a connected distributor of emergency supplies.
+                        <br><br>
+                        - Implementation of a physical prototype<br>
+                        - Design of a functional prototype for a mobile application (iOS development)
+                    </p>
+                </div>
             </div>
+                <footer class="row">
+                    <video class="w50" controls>
+                        <source src="../Assets/Videos/PSTE_laDistrib.mp4" type="video/mp4">
+                    </video>
+                    <video class="w20" controls>
+                        <source src="../Assets/Videos/Demo.mp4" type="video/mp4">
+                    </video>
+                </footer>
+
         </article>
+
+
+
     </section>
 
     <section id="ATMeds">

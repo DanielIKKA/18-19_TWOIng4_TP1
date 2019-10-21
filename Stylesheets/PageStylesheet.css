@@ -78,3 +78,11 @@ aside footer a {
 #lines {
     margin-bottom: 4em;
 }
+
+article footer {
+    margin-top: 50px;
+}
+
+footer video {
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+}
